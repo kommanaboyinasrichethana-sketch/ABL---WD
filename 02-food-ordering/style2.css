@@ -1,0 +1,132 @@
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    background-color:WHITE; 
+    margin: 0;
+}
+
+/* Header */
+.header {
+    background-color: #8b2500;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Welcome section */
+.welcome {
+    background-color: #ffe0b2;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.welcome h2 {
+    color: #8b2500;
+    font-size: 26px;
+}
+
+.welcome a {
+    color: white;
+    background-color: #8b2500;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Menu container */
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0px auto;
+    text-align: center;
+    background-image:url(https://img.freepik.com/premium-photo/menu-blank-template-empty-paper-background-white-restaurant-kitchen-board-card-design-ea_1064589-160624.jpg?w=1800);
+}
+
+.container h2 {
+    color: #8b2500;
+    font-size: 28px;
+}
+
+/* Food cards */
+.food-card {
+    display:inline-block;
+    background-color: white;
+    border: 1px solid #e0b89c;
+    padding: 10px;
+    margin: 10px auto;
+    width: 20%;
+}
+
+.food-card img {
+    width: 100%;
+    height: 180px;
+}
+
+.food-card h3 {
+    color: #8b2500;
+    font-size: 22px;
+}
+
+.food-card p {
+    line-height: 1.5;
+}
+
+.price {
+    color: #287a32;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.food-card a {
+    color: white;
+    background-color: #8b2500;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Offers, reviews and contact */
+.section {
+    background-image:url(https://tse3.mm.bing.net/th/id/OIP.DhD0oWSOuKSW4Usfm3ONewHaKe?r=0&rs=1&pid=ImgDetMain&o=7&rm=3);
+    border: 1px solid #e0b89c;
+    padding: 20px;
+    margin: 20px auto;
+    width: 30%;
+    color:red;
+}
+
+.section h2 {
+    color:rgb(219, 225, 27);
+    text-align: center;
+    font-size: 24px;
+}
+
+.section li {
+    margin-bottom: 10px;
+    color: red;
+}
+
+/* Back to top */
+.back {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #8b2500;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
