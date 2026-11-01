@@ -1,0 +1,124 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #292929;
+    background-image:url(https://www.instantpixapp.com/images/use-cases/college-fest-hero.jpg);
+    margin: 0;
+}
+
+/* Header */
+.header {
+    background-color: #34205c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.header h1 {
+    font-size: 32px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+/* Welcome section */
+.welcome {
+    background-color:#34205c;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.welcome h2 {
+    font-size: 28px;
+}
+
+.welcome a {
+    background-color: #34205c;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Content sections */
+.section {
+    background-color:#f3f0ff;
+    border: 1px solid #c8bce8;
+    padding: 20px;
+    margin: 20px auto;
+    width: 85%;
+    max-width: 850px;
+}
+
+.section h2 {
+    color: #34205c;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 2px solid #8d73cc;
+    padding-bottom: 10px;
+}
+
+/* Event cards */
+.event-card {
+    background-color: #f8f5ff;
+    border: 1px solid #b8a6e6;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.event-card h3 {
+    color: #6541a5;
+    font-size: 20px;
+}
+
+.event-card li {
+    margin-bottom: 8px;
+}
+
+/* Schedule table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #8d73cc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #34205c;
+    color: white;
+}
+
+td {
+    background-color: #faf8ff;
+}
+
+/* Registration link */
+.section a {
+    color: #56319b;
+}
+
+/* Back to top */
+.back {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #34205c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
